@@ -377,7 +377,6 @@ hr{
 
 .action{
    color: #00abe9;
-
 }
 
 .action-container{
@@ -386,6 +385,10 @@ hr{
 
 .definition{
   color: rgb(190,190,190);
+}
+
+.definition:hover{
+  cursor:help;
 }
 
 

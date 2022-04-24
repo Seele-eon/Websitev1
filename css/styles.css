@@ -36,6 +36,27 @@ html,body
   user-select: none;
 }
 
+#cycle{
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+}
+
+.l-cycle{
+  width: 100%;
+  height: 225px;
+  background-color: black;
+}
+
+.l-cycle-text{
+  font-size:40px;
+  color:#eceeef;
+  padding-left: 3.2rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 225px;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
@@ -153,6 +174,10 @@ html,body
   color:white;
 }
 
+.what-for:hover{
+  color:white;
+}
+
 .pronounciation-text{
   color: grey;
 }
@@ -199,6 +224,32 @@ html,body
   color: black;
 }
 
+.in-development-cards{
+    background-color: rgb(196,196,196);
+}
+
+.in-development-text{
+  color: rgb(33,33,33);
+}
+
+
+.far-away-cards{
+  background-color: rgb(128,128,128)
+}
+
+.the-end-card{
+  background-color: black;
+}
+
+.end-text{
+  color: #f0f0f0;
+}
+
+.far-away-text{
+  color: #dcdcdc;
+}
+
+
 .original{
   color:white;
 }
@@ -229,6 +280,9 @@ html,body
   padding: 0 20px 0;
 }
 
+.highlight{
+  background-color: #fff0a3;
+}
 
 .R:hover {
   box-shadow: 0 12px 22px 0 rgba(255, 0, 0, 0.5), 0 10px 25px 0 rgba(255, 0, 0, 0.33);
@@ -391,6 +445,18 @@ hr{
   cursor:help;
 }
 
+.fish{
+  color:#008080;
+}
+
+.treasure{
+  color:#b08f26;
+}
+
+.abyss{
+  color:black;
+}
+
 
 /*FadeIn*/
 
@@ -484,6 +550,44 @@ span.whole{
 	-webkit-animation-delay: 30s;
 }
 
+#whatforbody {
+  background: black;
+}
+
+.lead{
+  color: rgb(222, 218, 214);
+}
+
+.first-line{
+  margin-top: 2rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  color: rgb(222, 218, 214);
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 4rem;
+  }
+}
 
 
 

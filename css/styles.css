@@ -334,9 +334,29 @@ html,body
   color: white!important;
 }
 
+.l0-originals-items-container{
+    text-align: center!important;
+}
+
 .h4-original{
   color: 	#DCDCDC!important;
 }
+
+.l0-originals-list{
+  text-align: left;
+  display: inline-block;
+}
+
+.l0-original-items{
+  display: list-item!important;
+  color: white!important;
+}
+
+.l0-item-content{
+  display: inline-table;
+}
+
+ol, ul { list-style: square inside;}
 
 .original-anim:hover{
   animation: animateColors 4s infinite!important;

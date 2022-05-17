@@ -477,6 +477,11 @@ hr{
   color:black;
 }
 
+.abyss-top{
+  color:black;
+  text-shadow: 0 0 1px gray, 0 0 1px gray, 0 0 1px gray, 0 0 1px gray, 0 0 1px gray;
+}
+
 
 /*FadeIn*/
 

@@ -12,6 +12,6 @@ outButton.addEventListener('click', function handleClick(){
   for (let i = 0; i < textList.length; i++) {
   setTimeout(function timer() {
     textToChange.innerHTML = textList[i];
-  }, 1200*i);
+  }, 1300*i);
 }
 })

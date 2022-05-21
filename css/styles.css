@@ -288,6 +288,12 @@ html,body
   background-color: #fff0a3;
 }
 
+@media screen and (orientation: portrait) and (max-device-width: 413px) {
+  .no-text{
+    display:none;
+  }
+}
+
 .R:hover {
   box-shadow: 0 12px 22px 0 rgba(255, 0, 0, 0.5), 0 10px 25px 0 rgba(255, 0, 0, 0.33);
   transition: all .22s ease-in-out;
@@ -605,6 +611,12 @@ span.whole{
 
 .main-right-border{
   border-right-width: 2px!important;
+}
+
+@media screen and (orientation: portrait) and (max-device-width: 360px) {
+  .no-number-text{
+    display:none;
+  }
 }
 
 .red{

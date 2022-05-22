@@ -664,7 +664,7 @@ span.whole{
 }
 
 .grey{
-  color:grey;
+  color:grey!important;
 }
 
 /* Thin out the marketing headings */

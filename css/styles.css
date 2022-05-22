@@ -601,6 +601,8 @@ span.whole{
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
+
+
 .no-left-border{
   border-left-width: 0px!important;
 }
@@ -619,41 +621,51 @@ span.whole{
   }
 }
 
+.l-cell{
+    background-color: rgb(12,12,12)!important;
+}
+
+.series-cell{
+  background-color: rgb(24,24,24)!important;
+}
+
+.originals-cell{
+  background-color: rgb(30,30,30)!important;
+  color: gray;
+}
+
 .red{
   color: red;
-  text-shadow: 0 0 1px white;
+
 }
 
 .orange{
   color: orange;
-  text-shadow: 0 0 1px white;
 }
 
 .yellow{
   color: yellow;
-  text-shadow: 0 0 1px white;
 }
 
 .green{
   color: green;
-  text-shadow: 0 0 1px white;
 }
 
 .blue{
   color: blue;
-  text-shadow: 0 0 1px white;
 }
 
 .indigo{
  color: indigo;
-  text-shadow: 0 0 1px white;
 }
 
 .violet{
  color: violet;
- text-shadow: 0 0 1px white;
 }
 
+.grey{
+  color:grey;
+}
 
 /* Thin out the marketing headings */
 .featurette-heading {

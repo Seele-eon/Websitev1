@@ -672,7 +672,7 @@ span.whole{
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.2;
   color: rgb(222, 218, 214);
   /* rtl:remove */
   letter-spacing: -.05rem;

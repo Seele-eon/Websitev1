@@ -601,7 +601,9 @@ span.whole{
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-
+.hidden{
+  display:none;
+}
 
 .no-left-border{
   border-left-width: 0px!important;

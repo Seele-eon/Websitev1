@@ -649,6 +649,10 @@ span.whole{
   color: yellow;
 }
 
+.black-outline{
+    text-shadow: 0 0 1px black, 0 0 1px black;
+}
+
 .green{
   color: green;
 }
